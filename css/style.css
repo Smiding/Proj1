@@ -1,5 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: 'Lato', 'sans-serif';
     font-weight: 400;
+    color: gray;
 }
+
+/* Header */
+
+h1, h2 {
+    font-family: 'Lato', 'sans-serif';
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+
+}
+
+#whc {
+    float: left;
+    font-size: 300%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 2px;
+    
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
