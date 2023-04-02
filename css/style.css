@@ -10,6 +10,7 @@ body {
     font-family: 'Lato', 'sans-serif';
     font-weight: 400;
     color: gray;
+    margin-top: 20px;
 }
 
 /* Header */
@@ -19,13 +20,11 @@ h1, h2 {
     text-transform: uppercase;
     color: black;
     letter-spacing: 2px;
-
 }
 
 #whc {
     float: left;
     font-size: 300%;
-    
 }
 
 #menu, #whc {
@@ -35,7 +34,6 @@ h1, h2 {
 #menu {
     font-size: 120%;
     letter-spacing: 2px;
-    
 }
 
 #menu li {
@@ -55,4 +53,62 @@ h1, h2 {
 
 .active {
     border-bottom: 2px solid grey;
+}
+
+#hero {
+    
+    height: 850px;
+    width: 100%;
+    background-image: url('../images/lag-bild.jpg');
+    background-repeat: no-repeat;
+    background-position: calc(center - 50px) calc(center - 50px);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    
+    
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+      
+
+
+#hero-outer {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+
+
+#team-logo {
+    max-width: 80%;
+    float: left;
+    animation-name: team-zoom;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    
+    
+}
+
+@keyframes team-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
 }
