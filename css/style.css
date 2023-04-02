@@ -25,10 +25,11 @@ h1, h2 {
 #whc {
     float: left;
     font-size: 300%;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
+    
+}
+
+#menu, #whc {
+    line-height: 80px;
 }
 
 #menu {
@@ -40,9 +41,18 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-top: 30px;
-    margin-bottom: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 20px;
 }
 
+#menu a {
+    text-decoration: none;
+    color:inherit
+}
+
+#menu a:hover {
+    border-bottom: 2px solid grey;
+}
+
+.active {
+    border-bottom: 2px solid grey;
+}
