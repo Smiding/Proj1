@@ -99,7 +99,7 @@ h1, h2 {
     float: left;
     animation-name: team-zoom;
     animation-duration: 6s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: backwards;
     
     
 }
@@ -109,6 +109,6 @@ h1, h2 {
         transform: scale(1);
     }
     to{
-        transform: scale(1.2);
+        transform: scale(0);
     }
 }
