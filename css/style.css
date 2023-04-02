@@ -24,9 +24,13 @@ h1, h2 {
 
 #whc {
     float: left;
-    font-size: 300%;
+    font-size: 350%;
+    margin-left: 50px;
 }
 
+span {
+    color: rgb(51, 51, 4);
+}
 #menu, #whc {
     line-height: 80px;
 }
