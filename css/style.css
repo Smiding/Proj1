@@ -22,7 +22,10 @@ h1, h2 {
     color: black;
     letter-spacing: 2px;
 }
-
+h2 {
+    font-size: 150%;
+    clear: both;
+}
 #whc {
     float: left;
     font-size: 350%;
@@ -158,3 +161,44 @@ hr {
     margin: 0 auto;
     font-size: x-large;
 }
+
+footer {
+    height: 200px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 200%;
+    margin: 2%;
+    padding: 5%;
+    color: grey;
+}
+
+.scorers {
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scorers ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.scorers li {
+    margin-bottom: 20px;
+    font-size: large;
+    color: gray;
+}
+
