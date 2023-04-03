@@ -73,7 +73,6 @@ span {
     width: 100%;
     background-image: url('../images/lag-bild.jpg');
     background-repeat: no-repeat;
-    background-position: calc(center - 50px) calc(center - 50px);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -182,23 +181,70 @@ footer {
 }
 
 .scorers {
-    margin-top: 400px;
+    margin-top:0; 
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.scorers ul {
+    align-items: center; 
+  }
+  
+  .scorers ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
   }
-
-
-.scorers li {
-    margin-bottom: 20px;
+  
+  .scorers li {
+    margin-bottom: 20px; 
     font-size: large;
     color: gray;
-}
+  }
 
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+  }
+  
+  input[type="text"], select, textarea {
+    padding: 8px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    width: 300px;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  
+  select {
+    background-size: 12px;
+    background-position: calc(100% - 15px) 50%;
+    padding-right: 25px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button[type="submit"] {
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 1.1em;
+    
+  }
+  
+  button[type="submit"]:hover {
+    background-color: black;
+  }
