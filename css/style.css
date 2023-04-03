@@ -11,6 +11,7 @@ body {
     font-weight: 400;
     color: gray;
     margin-top: 20px;
+    
 }
 
 /* Header */
@@ -26,18 +27,22 @@ h1, h2 {
     float: left;
     font-size: 350%;
     margin-left: 50px;
+    line-height: 80px;
+    vertical-align: middle;
 }
 
 span {
     color: rgb(51, 51, 4);
 }
 #menu, #whc {
-    line-height: 80px;
+    
 }
 
 #menu {
-    font-size: 120%;
+    font-size: 220%;
     letter-spacing: 2px;
+    line-height: 80px;
+    vertical-align: middle;
 }
 
 #menu li {
@@ -115,4 +120,41 @@ span {
     to{
         transform: scale(0);
     }
+}
+
+hr {
+    border: 2px solid grey;
+}
+
+#text {
+    height: 800px;
+    display: flex;
+}
+
+#history {
+    width: 80%;
+    padding-top: 20px;
+    float:left;
+    margin-left: 50px;
+    font-size: x-large;
+    
+    
+}
+
+#tiger {
+    
+    
+    
+    max-height: 70%;
+    float: right;
+    margin-right: 100px;
+
+}
+
+#why {
+    width: 33%;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: x-large;
 }
