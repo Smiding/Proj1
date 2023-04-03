@@ -224,7 +224,15 @@ footer {
     font-size: 1.1em;
     margin-bottom: 15px;
   }
-  
+
+  input[type=email] {
+  padding: 8px;
+  border: 2px solid gray;
+  border-radius: 4px;
+  width: 300px;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  }
   select {
     background-size: 12px;
     background-position: calc(100% - 15px) 50%;
