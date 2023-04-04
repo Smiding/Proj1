@@ -69,21 +69,21 @@ span {
 
 #hero {
     
-    height: 850px;
-    width: 100%;
-    background-image: url('../images/lag-bild.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    animation-name: hero-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
+  height: 50vw;
+  width: 100vw;
+  background-image: url('../images/lag-bild.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: hero-zoom;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
     
     
 }
+
+
 
 @keyframes hero-zoom {
     from{
@@ -266,3 +266,39 @@ footer {
   button[type="submit"]:hover {
     background-color: black;
   }
+
+  /* Media*/
+  
+    @media screen and (max-width: 1258px) {
+        
+        header {display: grid;}
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            font-size: 0,8em;
+        }
+    }
+
+    @media only screen and (max-width: 658px) {
+        
+        nav ul li a {
+          font-size: 0.8rem;
+        }
+        nav {
+          justify-content: center;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        #team-logo {
+          width: 100px;
+        }
+      }
+      
+      @media screen and (max-width: 480px) {
+        #team-logo {
+          width: 50px;
+        }
+      }  
