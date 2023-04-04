@@ -16,6 +16,7 @@ body {
 
 /* Header */
 
+
 h1, h2 {
     font-family: 'Lato', 'sans-serif';
     
@@ -160,9 +161,9 @@ hr {
 }
 
 #tiger {
-    max-height: 30%;
-    
-    margin-bottom: 50px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 #why {
