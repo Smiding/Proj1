@@ -142,6 +142,15 @@ hr {
     padding: 50px;
 }
 
+#text1 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
 #history {
     width: 100%;
     max-width: 1000px;
@@ -291,13 +300,13 @@ footer {
         }
       }
 
-      @media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
         #team-logo {
           width: 100px;
         }
       }
       
-      @media screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
         #team-logo {
           width: 50px;
         }
