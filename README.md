@@ -14,25 +14,25 @@ with this page we hope to get som new members and also have news and other infom
 - A Want to play page with a form.
 
 ## Navigation Bar
-![img](images/Footer.png)
+![img](images/header.png)
 
 - Has the team name of Westermal HC, links to Home, Top Scorers and Want to play.
 - All pages can be accesed from every page so that you dont need to use the back button.
 
 
 ## Home page image
-![img](images/Page-img.png)
+![img](images/page-img.png)
 
 - The home page img is a teamphoto with the team logo as a overlay.
 - Both the Team photo and the team logo has animations on them to catch the attension of the viewer.
 
 ## History and Play With Us Section
-![img](images/Text.png)
+![img](images/text.png)
 -The history text will let the user read a short text about the clubs history.
 -The Play with us text is a text to get the user to be interested in playing with the team.
 
 ## Footer
-![img](images/Tiger-footer.png)
+![img](images/tiger-footer.png)
 -The footer includes the links to all of the teams social media.
 -The links are a easy way to make the user find the teams social media. 
 
